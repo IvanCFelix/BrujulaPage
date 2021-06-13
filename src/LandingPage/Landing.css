@@ -1,4 +1,7 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   overflow: scroll;
@@ -7,39 +10,56 @@
 }
 
 .header {
+  background-image: url('../Assets/fondo\ 1.png');
   width: 100%;
-  height: 90%;
-  background-color: cornflowerblue;
+  height: 100%;
+  background-repeat: no-repeat;
+  padding-top: 12%;
+  text-align: left;
+  justify-content: left;
 }
 
 .navbar {
   width: 100%;
-  height: 100px;
+  height: 112px;
   background-color: black;
   margin-bottom: 5px;
 }
 
+.astronaut {
+  background-color: rebeccapurple;
+  float: right;
+  top: 10px;
+}
 .subtitle-header {
   font-family: Arial;
-  font-size: 43px;
+  font-size: 40px;
+  margin-left: 5%;
   color: #adcfe2;
 }
 
 .title-header {
-  font-size: 100px;
-  font-family: Arial;
-  font-weight: bolder;
-  text-align: center;
-  font-style: black;
-  color: #000000;
-}
-
-.header h1 {
   font-family: 'Arial Black';
-  font-size: 100px;
   font-style: normal;
   font-variant: normal;
   font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  color: #ffffff;
+  display: block;
+  text-align: left;
+}
+.title-down-header {
+  font-size: 150px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Arial Black';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: left;
+  display: block;
 }
 
 .header p {
@@ -48,4 +68,11 @@
   color: #7d93c6;
   font-style: normal;
   font-variant: normal;
+}
+
+.logo-brujula {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 5%;
 }
