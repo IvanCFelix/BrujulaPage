@@ -19,6 +19,20 @@ const Landing = () => {
       info: 'Manejamos Facebook, Instram, Google, Twitter, Linkeding, Youtube, Tiktok, Email y todo tipo de aplicaciones especializadas.',
     },
   ];
+  const infoline2 = [
+    {
+      tittle: 'Fotografía y Video',
+      info: 'Una fotografía real de tu producto siempre será mejor que una descargada de internet. Realizamos sesión de foto y video a cada cliente para general contenido único.',
+    },
+    {
+      tittle: 'Análisis de Datos',
+      info: 'Cada comentario, cada vista, cada like, compartido, alcance, mensaje, todo se mide y analiza constantemente para llevar un control y análisis de la mejor manera de obtener resultados en tus redes.',
+    },
+    {
+      tittle: 'Diseño WEB',
+      info: 'Realizamos investigación de tu mercado, tu publico objetivo y tu competencia para poder segmentar y llegar más efectivamente a ellos.',
+    },
+  ];
   return (
     <Col className='container m-0'>
       <Row className='navbar'>
@@ -55,7 +69,7 @@ const Landing = () => {
       <Row className='info-section'>
         <h2 className='info-title'>El Marketing Digital consiste en</h2>
         <Row className={'info-container'}>
-          {infoline1.map((info) => (
+          {infoline2.map((info) => (
             <Col className='info-item'>
               <h2>{info.tittle}</h2>
               <p>{info.info}</p>
