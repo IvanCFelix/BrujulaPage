@@ -3,39 +3,38 @@
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   overflow: scroll;
   overflow-y: auto;
   overflow-x: hidden;
 }
-
-.header {
-  background-image: url('../Assets/fondo\ 1.png');
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  padding-top: 12%;
-  text-align: left;
-  justify-content: left;
-}
-
 .navbar {
   width: 100%;
-  height: 112px;
+  height: 70px;
   background-color: black;
   margin-bottom: 5px;
 }
 
-.astronaut {
-  background-color: rebeccapurple;
-  float: right;
-  top: 10px;
+.header {
+  background-image: url('../Assets/fondo\ 1.png');
+  width: 100vw;
+  height: 60vh;
+  background-repeat: no-repeat;
+  padding-top: 12%;
+  text-align: left;
+  justify-content: left;
+  padding-bottom: 10%;
 }
+
 .subtitle-header {
   font-family: Arial;
-  font-size: 40px;
+  font-size: 28px;
   margin-left: 5%;
   color: #adcfe2;
+}
+
+.header-container {
+  margin-left: 10%;
 }
 
 .title-header {
@@ -43,28 +42,38 @@
   font-style: normal;
   font-variant: normal;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 5vw;
+  margin-left: 5px;
   text-align: center;
   color: #ffffff;
   display: block;
   text-align: left;
 }
 .title-down-header {
-  font-size: 150px;
+  font-size: 8vw;
   text-align: center;
   color: #ffffff;
-  margin: 0;
+
   font-family: 'Arial Black';
   font-style: normal;
   font-variant: normal;
   font-weight: bold;
   text-align: left;
   display: block;
+  margin-top: -25px;
+}
+
+.astronaut {
+  position: absolute;
+  bottom: -127px;
+  right: 180px;
+  width: 435px;
+  height: 480px;
 }
 
 .header p {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 28px;
+  font-size: 2vw;
   color: #7d93c6;
   font-style: normal;
   font-variant: normal;
@@ -74,5 +83,79 @@
   width: 100%;
   height: auto;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 15px;
+}
+
+/*Aqui comienza la seccion de informacion y textos */
+
+.info-section {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.info-container {
+  width: 100vw;
+  height: auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.info-title {
+  font-size: 2.3vw;
+  color: #001f29;
+}
+
+.info-item {
+  text-align: left;
+  width: 19%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.info-item p {
+  color: #001f29;
+  font-weight: 500;
+  font-size: 1.35vw;
+  font: normal normal normal Arial;
+  margin-top: 10px;
+}
+
+.info-item h2 {
+  color: #001f29;
+  margin-bottom: 5px;
+  font-size: 1.6vw;
+}
+
+/*Media query section*/
+
+@media (min-width: 1920px) {
+  .astronaut {
+    position: absolute;
+    bottom: -112px;
+    right: 313px;
+    width: 500px;
+    height: 535px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1769px) {
+  .astronaut {
+    position: absolute;
+    bottom: -108px;
+    right: 234px;
+    width: 445px;
+    height: 490px;
+  }
+}
+@media (min-width: 1770px) and (max-width: 1919px) {
+  .astronaut {
+    position: absolute;
+    bottom: -108px;
+    right: 295px;
+    width: 461px;
+    height: 500px;
+  }
 }
