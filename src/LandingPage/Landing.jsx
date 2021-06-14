@@ -69,7 +69,7 @@ const Landing = () => {
       <Row className='info-section'>
         <h2 className='info-title'>El Marketing Digital consiste en</h2>
         <Row className={'info-container'}>
-          {infoline2.map((info) => (
+          {infoline1.map((info) => (
             <Col className='info-item'>
               <h2>{info.tittle}</h2>
               <p>{info.info}</p>
@@ -77,7 +77,7 @@ const Landing = () => {
           ))}
         </Row>
         <Row className={'info-container'}>
-          {infoline1.map((info) => (
+          {infoline2.map((info) => (
             <Col className='info-item'>
               <h2>{info.tittle}</h2>
               <p>{info.info}</p>

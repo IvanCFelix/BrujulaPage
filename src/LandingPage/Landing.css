@@ -159,3 +159,48 @@
     height: 500px;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .header-container {
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+  .astronaut {
+    display: none;
+  }
+  .subtitle-header {
+    font-family: Arial;
+    font-size: 2.5vw;
+    margin-left: 0%;
+    color: #adcfe2;
+  }
+  .title-header {
+    font-family: 'Arial Black';
+    font-style: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    font-weight: 700;
+    font-size: 6vw;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .title-down-header {
+    font-size: 9vw;
+    font-family: 'Arial Black';
+    font-style: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    font-weight: 700;
+    margin-top: -7px;
+    text-align: center;
+  }
+  .header p {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 4vw;
+    color: #7d93c6;
+    font-style: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+  }
+}
