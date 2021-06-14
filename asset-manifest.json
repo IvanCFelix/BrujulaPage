@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/BrujulaPage/static/css/main.3cef134c.chunk.css",
-    "main.js": "/BrujulaPage/static/js/main.477e5914.chunk.js",
-    "main.js.map": "/BrujulaPage/static/js/main.477e5914.chunk.js.map",
+    "main.css": "/BrujulaPage/static/css/main.35ba9e55.chunk.css",
+    "main.js": "/BrujulaPage/static/js/main.70b145a9.chunk.js",
+    "main.js.map": "/BrujulaPage/static/js/main.70b145a9.chunk.js.map",
     "runtime-main.js": "/BrujulaPage/static/js/runtime-main.41a4a2a5.js",
     "runtime-main.js.map": "/BrujulaPage/static/js/runtime-main.41a4a2a5.js.map",
     "static/js/2.ee5f2f45.chunk.js": "/BrujulaPage/static/js/2.ee5f2f45.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.ee85afbd.chunk.js": "/BrujulaPage/static/js/3.ee85afbd.chunk.js",
     "static/js/3.ee85afbd.chunk.js.map": "/BrujulaPage/static/js/3.ee85afbd.chunk.js.map",
     "index.html": "/BrujulaPage/index.html",
-    "static/css/main.3cef134c.chunk.css.map": "/BrujulaPage/static/css/main.3cef134c.chunk.css.map",
+    "static/css/main.35ba9e55.chunk.css.map": "/BrujulaPage/static/css/main.35ba9e55.chunk.css.map",
     "static/js/2.ee5f2f45.chunk.js.LICENSE.txt": "/BrujulaPage/static/js/2.ee5f2f45.chunk.js.LICENSE.txt",
     "static/media/astro.b754306b.png": "/BrujulaPage/static/media/astro.b754306b.png",
     "static/media/Landing.css": "/BrujulaPage/static/media/fondo 1.d99c6b16.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.41a4a2a5.js",
     "static/js/2.ee5f2f45.chunk.js",
-    "static/css/main.3cef134c.chunk.css",
-    "static/js/main.477e5914.chunk.js"
+    "static/css/main.35ba9e55.chunk.css",
+    "static/js/main.70b145a9.chunk.js"
   ]
 }
