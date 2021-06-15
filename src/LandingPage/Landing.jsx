@@ -1,9 +1,10 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col, Image } from 'react-bootstrap';
 import '../LandingPage/Landing.css';
 import IconBrujula from '../Assets/logo-w-name.png';
 import Astronaut from '../Assets/astro.png';
 import LogoBrujula from '../Assets/logos-brujula-icon.png';
+
 const Landing = () => {
   const infoline1 = [
     {
@@ -76,13 +77,22 @@ const Landing = () => {
             </Col>
           ))}
         </Row>
-        <Row className={'info-container'}>
+        <Row className='info-container'>
           {infoline2.map((info) => (
             <Col className='info-item'>
               <h2>{info.tittle}</h2>
               <p>{info.info}</p>
             </Col>
           ))}
+        </Row>
+      </Row>
+      <Row className='album-section'>
+        <h2 className='album-title'>Conoce nuestro trabajo </h2>
+        <Row className='images-container'>
+          <img src={'../Assets/white.png'} width='400' height='500' />
+
+          <Col></Col>
+          <Col></Col>
         </Row>
       </Row>
     </Col>

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: auto;
   overflow: scroll;
   overflow-y: auto;
@@ -10,20 +10,20 @@
 }
 .navbar {
   width: 100%;
-  height: 70px;
+  height: 10%;
   background-color: black;
   margin-bottom: 5px;
 }
 
 .header {
   background-image: url('../Assets/fondo\ 1.png');
-  width: 100vw;
-  height: 60vh;
+  background-size: cover;
+  width: 100%;
+  height: 85vh;
   background-repeat: no-repeat;
   padding-top: 12%;
   text-align: left;
   justify-content: left;
-  padding-bottom: 10%;
 }
 
 .subtitle-header {
@@ -83,20 +83,21 @@
   width: 100%;
   height: auto;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 5%;
 }
 
 /*Aqui comienza la seccion de informacion y textos */
 
 .info-section {
-  width: 100vw;
-  height: 100vh;
-  padding-top: 20px;
+  width: 100%;
+  height: 60vh;
+  padding-top: 5%;
+  padding-bottom: 20%;
   justify-content: center;
 }
 
 .info-container {
-  width: 100vw;
+  width: 100%;
   height: auto;
   padding-top: 40px;
   display: flex;
@@ -110,9 +111,9 @@
 
 .info-item {
   text-align: left;
-  width: 19%;
-  margin-left: 100px;
-  margin-right: 100px;
+  width: 20%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .info-item p {
@@ -123,6 +124,46 @@
   margin-top: 10px;
 }
 
+.info-item h2 {
+  color: #001f29;
+  margin-bottom: 5px;
+  font-size: 1.6vw;
+}
+
+/*Aqui comienza la seccion de el album y carrousel*/
+
+.album-section {
+  background-image: url('../Assets/fondo\ 1.png');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  padding-top: 5%;
+  text-align: left;
+  justify-content: left;
+}
+
+.images-container {
+  width: 100vw;
+  height: auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.album-title {
+  font-size: 2.3vw;
+  text-align: center;
+  color: #ffffff;
+}
+
+.img-item {
+}
+
+.img-horizontal {
+  width: 200px;
+  height: 200px;
+}
 .info-item h2 {
   color: #001f29;
   margin-bottom: 5px;
