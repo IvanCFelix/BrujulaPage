@@ -22,6 +22,7 @@
   height: 85vh;
   background-repeat: no-repeat;
   padding-top: 12%;
+
   text-align: left;
   justify-content: left;
 }
@@ -30,7 +31,7 @@
   font-family: Arial;
   font-size: 28px;
   margin-left: 5%;
-  color: #adcfe2;
+  color: white;
 }
 
 .header-container {
@@ -74,7 +75,7 @@
 .header p {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 2vw;
-  color: #7d93c6;
+  color: white;
   font-style: normal;
   font-variant: normal;
 }
@@ -85,7 +86,10 @@
   text-align: center;
   margin-top: 5%;
 }
-
+.logo-brujula img {
+  width: 180px;
+  height: 180px;
+}
 /*Aqui comienza la seccion de informacion y textos */
 
 .info-section {
@@ -102,6 +106,7 @@
   padding-top: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .info-title {
@@ -140,7 +145,6 @@
   background-repeat: no-repeat;
   padding-top: 5%;
   text-align: left;
-  justify-content: left;
 }
 
 .images-container {
@@ -148,6 +152,7 @@
   height: auto;
   padding-top: 40px;
   display: flex;
+
   justify-content: center;
 }
 
@@ -158,11 +163,17 @@
 }
 
 .img-item {
+  flex-direction: column;
+  width: auto;
+  margin: 0px 10%;
+  height: 100%;
 }
 
-.img-horizontal {
-  width: 200px;
+.img-item img {
+  width: 330px;
   height: 200px;
+  display: block;
+  margin-bottom: 40px;
 }
 .info-item h2 {
   color: #001f29;
@@ -201,7 +212,27 @@
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media (min-width: 1100px) and (max-width: 1400px) {
+  .astronaut {
+    position: absolute;
+    bottom: -101px;
+    right: 88px;
+    width: 385px;
+    height: 400px;
+  }
+  .header {
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .logo-brujula img {
+    width: 130px;
+    height: 130px;
+  }
+  .header {
+    height: 100vh;
+  }
   .header-container {
     justify-content: center;
     text-align: center;
@@ -212,9 +243,9 @@
   }
   .subtitle-header {
     font-family: Arial;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     margin-left: 0%;
-    color: #adcfe2;
+    color: white;
   }
   .title-header {
     font-family: 'Arial Black';
@@ -222,12 +253,12 @@
     font-feature-settings: normal;
     font-variant: normal;
     font-weight: 700;
-    font-size: 6vw;
+    font-size: 9vw;
     margin-left: 0px;
     text-align: center;
   }
   .title-down-header {
-    font-size: 9vw;
+    font-size: 15vw;
     font-family: 'Arial Black';
     font-style: normal;
     font-feature-settings: normal;
@@ -238,10 +269,51 @@
   }
   .header p {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 4vw;
-    color: #7d93c6;
+    font-size: 5vw;
+    color: white;
     font-style: normal;
     font-feature-settings: normal;
     font-variant: normal;
+  }
+  .info-section {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    justify-content: center;
+  }
+  .info-container {
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-title {
+    font-size: 4.3vw;
+    color: #001f29;
+  }
+  .info-item {
+    width: 55%;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+  }
+
+  .info-item p {
+    color: #001f29;
+    font-weight: 500;
+    font-size: 3.35vw;
+    font: normal normal normal Arial;
+    margin-top: 10px;
+  }
+
+  .info-item h2 {
+    color: #001f29;
+    margin-bottom: 5px;
+    font-size: 3.6vw;
   }
 }

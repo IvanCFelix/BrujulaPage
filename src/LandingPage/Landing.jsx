@@ -4,7 +4,7 @@ import '../LandingPage/Landing.css';
 import IconBrujula from '../Assets/logo-w-name.png';
 import Astronaut from '../Assets/astro.png';
 import LogoBrujula from '../Assets/logos-brujula-icon.png';
-
+import images from '../Assets/';
 const Landing = () => {
   const infoline1 = [
     {
@@ -56,14 +56,7 @@ const Landing = () => {
         </Col>
 
         <Row className='logo-brujula'>
-          <img
-            alt=''
-            src={LogoBrujula}
-            style={{
-              width: 182,
-              height: 182,
-            }}
-          />
+          <img alt='' src={LogoBrujula} />
           <p>El mejor momento para iniciar es hoy</p>
         </Row>
       </Row>
@@ -89,10 +82,17 @@ const Landing = () => {
       <Row className='album-section'>
         <h2 className='album-title'>Conoce nuestro trabajo </h2>
         <Row className='images-container'>
-          <img src={'../Assets/white.png'} width='400' height='500' />
-
-          <Col></Col>
-          <Col></Col>
+          <Col className='img-item'>
+            <img alt='' src={images.white} />
+            <img alt='' src={images.white} />
+          </Col>
+          <Col>
+            <img alt='' src={images.white} width='300' height='500' />
+          </Col>
+          <Col className='img-item'>
+            <img alt='' src={images.white} />
+            <img alt='' src={images.white} />
+          </Col>
         </Row>
       </Row>
     </Col>
