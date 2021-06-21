@@ -29,8 +29,9 @@
 
 .subtitle-header {
   font-family: Arial;
-  font-size: 28px;
-  margin-left: 5%;
+  font-size: 2vw;
+  padding-left: 6%;
+  text-align: center;
   color: white;
 }
 
@@ -87,8 +88,8 @@
   margin-top: 5%;
 }
 .logo-brujula img {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
 }
 /*Aqui comienza la seccion de informacion y textos */
 
@@ -170,15 +171,68 @@
 }
 
 .img-item img {
-  width: 330px;
+  width: 350px;
   height: 200px;
   display: block;
   margin-bottom: 40px;
+}
+
+.img-item img:hover {
+  transform: scale(1.2);
+  transition: 300ms;
 }
 .info-item h2 {
   color: #001f29;
   margin-bottom: 5px;
   font-size: 1.6vw;
+}
+
+/*Aqui comienza la seccion de contacto*/
+.contact-section {
+  width: 100%;
+  padding-bottom: 100px;
+  text-align: left;
+}
+
+.images-container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+
+  justify-content: center;
+}
+
+.contact-title {
+  font-size: 3.3vw;
+  text-align: center;
+  margin-bottom: 0;
+  color: #001f29;
+}
+.contact-subtitle {
+  font-size: 1.3vw;
+  text-align: center;
+  color: #001f29;
+  font-weight: 700;
+}
+
+.icon-item {
+  flex-direction: column;
+  width: auto;
+  margin: 0px 10%;
+  height: 100%;
+}
+
+.icons-container {
+  text-align: center;
+}
+.icons-container img {
+  width: 5%;
+  height: 5%;
+  border: rgb(27, 13, 13);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 100%;
+  margin: 15px 1%;
 }
 
 /*Media query section*/

@@ -95,6 +95,18 @@ const Landing = () => {
           </Col>
         </Row>
       </Row>
+      <Row className='contact-section'>
+        <h2 className='contact-title'>Contáctanos Ahora</h2>
+        <p className='contact-subtitle'>
+          Cuéntanos sobre tus objetivos y necesidades de marketing digital
+        </p>
+        <Row className='icons-container'>
+          <img alt='' src={images.fb} />
+          <img alt='' src={images.whats} />
+          <img alt='' src={images.insta} />
+          <img alt='' src={images.google} />
+        </Row>
+      </Row>
     </Col>
   );
 };
