@@ -1,11 +1,13 @@
 import React from 'react';
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import '../LandingPage/Landing.css';
 import IconBrujula from '../Assets/logo-w-name.png';
 import Astronaut from '../Assets/astro.png';
 import LogoBrujula from '../Assets/logos-brujula-icon.png';
 import images from '../Assets/';
-import Carousel from '../Components/Carousel';
+import Carousel from '../Components/MovilCarousel';
+import ScrollAnimation from 'react-animate-on-scroll';
+import WebCarousel from '../Components/WebCarousel';
 const Landing = () => {
   const infoline1 = [
     {
@@ -46,11 +48,14 @@ const Landing = () => {
       </Row>
       <Row className='header'>
         <Col className='header-container'>
-          <span className='subtitle-header'>
-            Deja tu marketing digital en buenas manos
-          </span>
-          <span className='title-header'>¡Hagamos crecer</span>
-          <span className={'title-down-header'}>tu negocio!</span>
+          <ScrollAnimation animateIn='fadeIn' duration={1}>
+            <span className='subtitle-header'>
+              Deja tu marketing digital en buenas manos
+            </span>
+
+            <span className='title-header'>¡Hagamos crecer</span>
+            <span className={'title-down-header'}>tu negocio!</span>
+          </ScrollAnimation>
           <Col style={{ position: 'relative' }}>
             <img alt='' className='astronaut' src={Astronaut}></img>
           </Col>
@@ -84,6 +89,9 @@ const Landing = () => {
         <Row className='carousel-movil'>
           <Carousel className='carousel'></Carousel>
         </Row>
+        <Row className='carousel-web'>
+          <WebCarousel className='carousel'></WebCarousel>
+        </Row>
       </Row>
       <Row className='contact-section'>
         <h2 className='contact-title'>Contáctanos Ahora</h2>
@@ -91,10 +99,34 @@ const Landing = () => {
           Cuéntanos sobre tus objetivos y necesidades de marketing digital
         </p>
         <Row className='icons-container'>
-          <img alt='' src={images.fb} />
-          <img alt='' src={images.whats} />
-          <img alt='' src={images.insta} />
-          <img alt='' src={images.google} />
+          <a
+            href='https://www.facebook.com/brujulamktdigital/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img alt='' src={images.fb} />
+          </a>
+          <a
+            href='https://api.whatsapp.com/send?phone=n%C3%BAmero+526681703396'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img alt='' src={images.whats} />
+          </a>
+          <a
+            href='https://www.instagram.com/brujulamktdigital/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img alt='' src={images.insta} />
+          </a>
+          <a
+            href='https://goo.gl/maps/SWTNHwgxLPjiEE3d7'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img alt='' src={images.google} />
+          </a>
         </Row>
       </Row>
     </Col>
