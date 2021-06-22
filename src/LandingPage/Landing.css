@@ -163,28 +163,8 @@
   color: #ffffff;
 }
 
-.img-item {
-  flex-direction: column;
-  width: auto;
-  margin: 0px 10%;
-  height: 100%;
-}
-
-.img-item img {
-  width: 350px;
-  height: 200px;
-  display: block;
-  margin-bottom: 40px;
-}
-
-.img-item img:hover {
-  transform: scale(1.2);
-  transition: 300ms;
-}
-.info-item h2 {
-  color: #001f29;
-  margin-bottom: 5px;
-  font-size: 1.6vw;
+.carousel-movil {
+  display: none;
 }
 
 /*Aqui comienza la seccion de contacto*/
@@ -233,6 +213,7 @@
   border-style: solid;
   border-radius: 100%;
   margin: 15px 1%;
+  cursor: pointer;
 }
 
 /*Media query section*/
@@ -279,13 +260,86 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media (min-width: 900px) and (max-width: 1099px) {
+  .astronaut {
+    position: absolute;
+    bottom: -13vh;
+    right: 12vw;
+    width: 35%;
+    height: 48vh;
+  }
+  .header {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 899px) {
+  .astronaut {
+    position: absolute;
+    bottom: -13vh;
+    right: 2vw;
+    width: 37%;
+    height: 40vh;
+  }
+  .header {
+    height: 80vh;
+  }
+  .icons-container img {
+    width: 12%;
+    height: 5%;
+    border: rgb(27, 13, 13);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 100%;
+    margin: 15px 1%;
+  }
+  .contact-subtitle {
+    font-size: 2.3vw;
+    text-align: center;
+    color: #001f29;
+    font-weight: 700;
+  }
+  .contact-title {
+    font-size: 4.3vw;
+    text-align: center;
+    margin-bottom: 0;
+    color: #001f29;
+  }
+  .info-item {
+    text-align: left;
+    width: 30%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .info-item p {
+    color: #001f29;
+    font-weight: 500;
+    font-size: 1.6vw;
+  }
+  .info-item h2 {
+    font-size: 2vw;
+  }
+  .subtitle-header {
+    font-size: 2.5vw;
+  }
+
+  .title-header {
+    font-size: 6vw;
+  }
+  .title-down-header {
+    font-size: 9vw;
+  }
+}
+
+/*Aqui se modifican todo el landing para adaptarse a dispositivos moviles*/
+
+@media only screen and (max-width: 700px) {
   .logo-brujula img {
     width: 130px;
     height: 130px;
   }
   .header {
-    height: 100vh;
+    height: 91vh;
   }
   .header-container {
     justify-content: center;
@@ -369,5 +423,44 @@
     color: #001f29;
     margin-bottom: 5px;
     font-size: 3.6vw;
+  }
+
+  .album-section {
+    padding: 0;
+  }
+  .album-title {
+    font-size: 4.3vw;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .carousel-movil {
+    display: block;
+  }
+
+  .contact-title {
+    font-size: 6.3vw;
+  }
+  .contact-subtitle {
+    font-size: 3.3vw;
+  }
+
+  .icons-container img {
+    width: 17%;
+  }
+
+  .carousel-title {
+    position: absolute;
+    bottom: 88%;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    border-radius: 10px;
+    background: white;
+    color: #001f29;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
   }
 }

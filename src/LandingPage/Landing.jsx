@@ -5,6 +5,7 @@ import IconBrujula from '../Assets/logo-w-name.png';
 import Astronaut from '../Assets/astro.png';
 import LogoBrujula from '../Assets/logos-brujula-icon.png';
 import images from '../Assets/';
+import Carousel from '../Components/Carousel';
 const Landing = () => {
   const infoline1 = [
     {
@@ -80,19 +81,8 @@ const Landing = () => {
         </Row>
       </Row>
       <Row className='album-section'>
-        <h2 className='album-title'>Conoce nuestro trabajo </h2>
-        <Row className='images-container'>
-          <Col className='img-item'>
-            <img alt='' src={images.white} />
-            <img alt='' src={images.white} />
-          </Col>
-          <Col>
-            <img alt='' src={images.white} width='300' height='500' />
-          </Col>
-          <Col className='img-item'>
-            <img alt='' src={images.white} />
-            <img alt='' src={images.white} />
-          </Col>
+        <Row className='carousel-movil'>
+          <Carousel className='carousel'></Carousel>
         </Row>
       </Row>
       <Row className='contact-section'>
