@@ -80,8 +80,9 @@ const Landing = () => {
         <Row className={'info-container'}>
           {infoline1.map((info) => (
             <Col className='info-item'>
-              <Fade className='info-item' top cascade>
-                <h2>{info.tittle}</h2>
+              <h2>{info.tittle}</h2>
+
+              <Fade className='info-item' top>
                 <p>{info.info}</p>
               </Fade>
             </Col>
@@ -90,8 +91,8 @@ const Landing = () => {
         <Row className='info-container'>
           {infoline2.map((info) => (
             <Col className='info-item'>
-              <Fade className='info-item' top cascade>
-                <h2>{info.tittle}</h2>
+              <h2>{info.tittle}</h2>
+              <Fade className='info-item' bottom>
                 <p>{info.info}</p>
               </Fade>
             </Col>

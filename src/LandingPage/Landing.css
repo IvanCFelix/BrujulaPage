@@ -12,7 +12,6 @@
   width: 100%;
   height: 10%;
   background-color: black;
-  margin-bottom: 5px;
 }
 
 .header {
@@ -102,12 +101,12 @@
 }
 
 .info-container {
-  width: 100%;
+  width: 85%;
   height: auto;
-  padding-top: 40px;
+  padding-top: 20px;
+  margin-left: 7%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .info-title {
@@ -116,10 +115,13 @@
 }
 
 .info-item {
-  text-align: left;
+  text-align: center;
   width: 25%;
   margin-left: 6%;
   margin-right: 6%;
+}
+.infor.item react-reveal {
+  text-align: justify;
 }
 
 .info-item p {
@@ -143,6 +145,7 @@
   height: auto;
   background-repeat: no-repeat;
   text-align: left;
+  background-image: url('../Assets/fondo\ 1.png');
 }
 
 .images-container {
@@ -176,7 +179,9 @@
 /*Aqui comienza la seccion de contacto*/
 .contact-section {
   width: 100%;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
+  padding: 35% 0px;
+  /* padding-top: 300px; */
   text-align: left;
 }
 
@@ -401,7 +406,6 @@
     justify-content: center;
   }
   .info-container {
-    width: 100%;
     height: auto;
     padding-top: 0px;
     flex-direction: column;

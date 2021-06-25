@@ -6,8 +6,8 @@
 .carousel.carousel-slider {
   position: relative;
   margin: 0;
-  overflow: hidden;
-  height: 100vh;
+
+  height: auto;
 }
 
 .carousel-title {
@@ -19,4 +19,10 @@
   top: -2%;
   width: 100%;
   padding: 20px;
+}
+
+.carousel .slide img {
+  width: 90%;
+  vertical-align: top;
+  border: 0;
 }

@@ -12,25 +12,26 @@ const CarouselSection = () => {
       showThumbs={false}
       showStatus={false}
       centerMode={true}
+      centerSlidePercentage={65}
     >
       <div>
         <h2 className='carousel-title '>Conoce nuestro trabajo</h2>
         <img className='img' alt='' src={`${webImages.pioneros}`} />
       </div>
       <div>
-        <img alt='' src={`${webImages.farmacia}`} />
+        <img className='img' alt='' src={`${webImages.farmacia}`} />
       </div>
       <div>
-        <img alt='' src={`${webImages.hipotecarios}`} />
+        <img className='img' alt='' src={`${webImages.hipotecarios}`} />
       </div>
       <div>
-        <img alt='' src={`${webImages.laguapa}`} />
+        <img className='img' alt='' src={`${webImages.laguapa}`} />
       </div>
       <div>
-        <img alt='' src={`${webImages.llantired}`} />
+        <img className='img' alt='' src={`${webImages.llantired}`} />
       </div>
       <div>
-        <img alt='' src={`${webImages.manhatan}`} />
+        <img className='img' alt='' src={`${webImages.manhatan}`} />
       </div>
     </Carousel>
   );
