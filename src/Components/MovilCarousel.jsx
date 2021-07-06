@@ -2,7 +2,6 @@ import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import { movilImages } from '../Assets/Carrousel';
-
 const CarouselSection = () => {
   return (
     <Carousel
@@ -13,7 +12,6 @@ const CarouselSection = () => {
       showStatus={false}
     >
       <div>
-        <h2 className='carousel-title '>Conoce nuestro trabajo</h2>
         <img alt='' src={`${movilImages.capitalClean}`} />
       </div>
       <div>

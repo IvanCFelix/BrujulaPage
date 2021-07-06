@@ -12,10 +12,10 @@ const CarouselSection = () => {
       showThumbs={false}
       showStatus={false}
       centerMode={true}
-      centerSlidePercentage={65}
+      centerSlidePercentage={80}
+      emulateTouch={true}
     >
       <div>
-        <h2 className='carousel-title '>Conoce nuestro trabajo</h2>
         <img className='img' alt='' src={`${webImages.pioneros}`} />
       </div>
       <div>

@@ -21,6 +21,8 @@
   height: 85vh;
   background-repeat: no-repeat;
   padding-top: 12%;
+  background-attachment: fixed;
+  background-position: center;
 
   text-align: left;
   justify-content: left;
@@ -144,8 +146,13 @@
   width: 100%;
   height: auto;
   background-repeat: no-repeat;
+  background-size: cover;
   text-align: left;
   background-image: url('../Assets/fondo\ 1.png');
+  background-attachment: fixed;
+  background-position: center;
+
+  background-size: cover;
 }
 
 .images-container {
@@ -179,9 +186,7 @@
 /*Aqui comienza la seccion de contacto*/
 .contact-section {
   width: 100%;
-  /* padding-bottom: 100px; */
-  padding: 35% 0px;
-  /* padding-top: 300px; */
+  height: 100vh;
   text-align: left;
 }
 
@@ -196,6 +201,7 @@
 .contact-title {
   font-size: 3.3vw;
   text-align: center;
+  margin-top: 15%;
   margin-bottom: 0;
   color: #001f29;
 }
@@ -217,8 +223,8 @@
   text-align: center;
 }
 .icons-container img {
-  width: 5%;
-  height: 5%;
+  width: 10%;
+  height: 10%;
   border: rgb(27, 13, 13);
   border-width: 1px;
   border-style: solid;
@@ -281,7 +287,7 @@
     bottom: -13vh;
     right: 12vw;
     width: 35%;
-    height: 48vh;
+    height: 32vh;
   }
   .header {
     height: 80vh;
@@ -300,8 +306,6 @@
     height: 80vh;
   }
   .icons-container img {
-    width: 12%;
-    height: 5%;
     border: rgb(27, 13, 13);
     border-width: 1px;
     border-style: solid;
@@ -354,7 +358,7 @@
     height: 130px;
   }
   .header {
-    height: 91vh;
+    height: 100vh;
   }
   .header-container {
     justify-content: center;
@@ -362,7 +366,11 @@
     margin: 0;
   }
   .astronaut {
-    display: none;
+    position: absolute;
+    bottom: -71vh;
+    right: 18vw;
+    width: 14em;
+    height: 15em;
   }
   .subtitle-header {
     font-family: Arial;
@@ -452,7 +460,12 @@
   .carousel-movil {
     display: block;
   }
-
+  .contact-section {
+    width: 100%;
+    height: 64vh;
+    padding: 35% 0px;
+    text-align: left;
+  }
   .contact-title {
     font-size: 6.3vw;
   }

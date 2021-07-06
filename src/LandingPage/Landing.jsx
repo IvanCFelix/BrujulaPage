@@ -15,29 +15,29 @@ const Landing = () => {
   const infoline1 = [
     {
       tittle: 'Análisis de Mercado',
-      info: 'Realizamos investigación de tu mercado, tu publico objetivo y tu competencia para poder segmentar y llegar más efectivamente a ellos.',
+      info: 'Realizamos investigación de tu mercado, tu público objetivo y tu competencia para poder segmentar y llegar más efectivamente a ellos.',
     },
     {
       tittle: 'Diseño de Identidad',
-      info: 'Tu negocio necesita una identidad propia, la cual será aplicada a todas sus redes, imágenes y aplicaciones, no solo es la foto si no la manera de comunicar un mensaje.',
+      info: 'Tu negocio necesita una identidad propia, la cual será aplicada a todas sus redes, imágenes y aplicaciones, no solo es la foto, sino la manera de comunicar un mensaje.',
     },
     {
       tittle: 'Análisis de Mercado',
-      info: 'Manejamos Facebook, Instram, Google, Twitter, Linkeding, Youtube, Tiktok, Email y todo tipo de aplicaciones especializadas.',
+      info: 'Manejamos Facebook, Instram, Google, Twitter, Linkedin, Youtube, Tiktok, Email y todo tipo de aplicaciones especializadas.',
     },
   ];
   const infoline2 = [
     {
       tittle: 'Fotografía y Video',
-      info: 'Una fotografía real de tu producto siempre será mejor que una descargada de internet. Realizamos sesión de foto y video a cada cliente para general contenido único.',
+      info: 'Una fotografía real de tu producto siempre será mejor que una descargada de internet. Realizamos sesión de foto y video a cada cliente para generar contenido único.',
     },
     {
       tittle: 'Análisis de Datos',
-      info: 'Cada comentario, cada vista, cada like, compartido, alcance, mensaje, todo se mide y analiza constantemente para llevar un control y análisis de la mejor manera de obtener resultados en tus redes.',
+      info: 'Cada comentario, cada vista, cada like, compartido, alcance, mensaje; todo se mide y analiza constantemente para llevar un control y análisis de la mejor manera de obtener resultados en tus redes.',
     },
     {
-      tittle: 'Diseño WEB',
-      info: 'Realizamos investigación de tu mercado, tu publico objetivo y tu competencia para poder segmentar y llegar más efectivamente a ellos.',
+      tittle: 'Desarrollo Web',
+      info: 'Diseñamos, programamos y creamos landing page, tiendas en línea o hasta aplicaciones según lo necesite tu empresa.',
     },
   ];
   return (
