@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BrujulaPage/static/css/main.acb9de0d.chunk.css",
-    "main.js": "/BrujulaPage/static/js/main.3af79c67.chunk.js",
-    "main.js.map": "/BrujulaPage/static/js/main.3af79c67.chunk.js.map",
+    "main.js": "/BrujulaPage/static/js/main.50718222.chunk.js",
+    "main.js.map": "/BrujulaPage/static/js/main.50718222.chunk.js.map",
     "runtime-main.js": "/BrujulaPage/static/js/runtime-main.d3ab37e7.js",
     "runtime-main.js.map": "/BrujulaPage/static/js/runtime-main.d3ab37e7.js.map",
     "static/css/2.4ce9e501.chunk.css": "/BrujulaPage/static/css/2.4ce9e501.chunk.css",
@@ -40,6 +40,6 @@
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.00e79e7e.chunk.js",
     "static/css/main.acb9de0d.chunk.css",
-    "static/js/main.3af79c67.chunk.js"
+    "static/js/main.50718222.chunk.js"
   ]
 }
