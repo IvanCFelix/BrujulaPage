@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/BrujulaPage/static/css/main.acb9de0d.chunk.css",
-    "main.js": "/BrujulaPage/static/js/main.50718222.chunk.js",
-    "main.js.map": "/BrujulaPage/static/js/main.50718222.chunk.js.map",
+    "main.css": "/BrujulaPage/static/css/main.03d61e18.chunk.css",
+    "main.js": "/BrujulaPage/static/js/main.ab07963c.chunk.js",
+    "main.js.map": "/BrujulaPage/static/js/main.ab07963c.chunk.js.map",
     "runtime-main.js": "/BrujulaPage/static/js/runtime-main.d3ab37e7.js",
     "runtime-main.js.map": "/BrujulaPage/static/js/runtime-main.d3ab37e7.js.map",
     "static/css/2.4ce9e501.chunk.css": "/BrujulaPage/static/css/2.4ce9e501.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.093e2002.chunk.js.map": "/BrujulaPage/static/js/3.093e2002.chunk.js.map",
     "index.html": "/BrujulaPage/index.html",
     "static/css/2.4ce9e501.chunk.css.map": "/BrujulaPage/static/css/2.4ce9e501.chunk.css.map",
-    "static/css/main.acb9de0d.chunk.css.map": "/BrujulaPage/static/css/main.acb9de0d.chunk.css.map",
+    "static/css/main.03d61e18.chunk.css.map": "/BrujulaPage/static/css/main.03d61e18.chunk.css.map",
     "static/js/2.00e79e7e.chunk.js.LICENSE.txt": "/BrujulaPage/static/js/2.00e79e7e.chunk.js.LICENSE.txt",
     "static/media/astro.b754306b.png": "/BrujulaPage/static/media/astro.b754306b.png",
     "static/media/capital-clean-movil.5fe4226d.png": "/BrujulaPage/static/media/capital-clean-movil.5fe4226d.png",
@@ -20,7 +20,7 @@
     "static/media/farmacia-web.2089fa10.png": "/BrujulaPage/static/media/farmacia-web.2089fa10.png",
     "static/media/fb.a1215215.png": "/BrujulaPage/static/media/fb.a1215215.png",
     "static/media/Landing.css": "/BrujulaPage/static/media/fondo 1.bbfe71c5.png",
-    "static/media/g.0bbfbd54.png": "/BrujulaPage/static/media/g.0bbfbd54.png",
+    "static/media/g.aef47f99.png": "/BrujulaPage/static/media/g.aef47f99.png",
     "static/media/hipotecarios-web.b4e8d196.png": "/BrujulaPage/static/media/hipotecarios-web.b4e8d196.png",
     "static/media/in.a623f44d.png": "/BrujulaPage/static/media/in.a623f44d.png",
     "static/media/laguapa-movil.b882c614.png": "/BrujulaPage/static/media/laguapa-movil.b882c614.png",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.d3ab37e7.js",
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.00e79e7e.chunk.js",
-    "static/css/main.acb9de0d.chunk.css",
-    "static/js/main.50718222.chunk.js"
+    "static/css/main.03d61e18.chunk.css",
+    "static/js/main.ab07963c.chunk.js"
   ]
 }
